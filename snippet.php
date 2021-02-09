@@ -8,10 +8,10 @@
 	 */
 
 	$kffa_popup_control = 	array(
-							'id'	=> '100',						          /* the post ID for the Popup */
-							'show'	=> '2021-01-01 00:00:00',		/* the date / time to enable the Popup */
-							'hide'	=> '2021-01-31 23:59:59'		/* the date / time to disable the Popup */
-						);
+					'id'	=> '100',			/* the post ID for the Popup */
+					'show'	=> '2021-01-01 00:00:00',	/* the date / time to enable the Popup */
+					'hide'	=> '2021-01-31 23:59:59'	/* the date / time to disable the Popup */
+				);
 	
 	// get/set the timezone setting from wordpress
 	$tz = wp_timezone_string();
